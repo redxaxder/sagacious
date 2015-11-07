@@ -1,0 +1,40 @@
+extra-deps:
+- StateVar-1.1.0.1
+- adjunctions-4.2.2
+- base-orphans-0.4.4
+- bifunctors-5
+- bytes-0.15.0.1
+- cereal-0.4.1.1
+- comonad-4.2.7.2
+- contravariant-1.3.3
+- distributive-0.4.4
+- exceptions-0.8.0.2
+- free-4.12.1
+- hashable-1.2.3.3
+- kan-extensions-4.2.3
+- lens-4.13
+- linear-1.20.2
+- mtl-2.2.1
+- nats-1.1
+- parallel-3.2.0.6
+- prelude-extras-0.4.0.2
+- primitive-0.6.1.0
+- profunctors-5.1.1
+- reflection-2.1
+- sdl2-2.1.0
+- semigroupoids-5.0.0.4
+- semigroups-0.18
+- stm-2.4.4
+- stm-chans-3.0.0.4
+- tagged-0.8.2
+- text-1.2.1.3
+- transformers-compat-0.4.0.4
+- unordered-containers-0.2.5.1
+- vector-0.11.0.0
+- void-0.7.1
+resolver: ghc-7.10
+flags:
+  text:
+    integer-simple: false
+packages:
+- '.'
