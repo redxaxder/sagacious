@@ -1,4 +1,3 @@
-{-# LANGUAGE DataKinds, GADTs, KindSignatures, PolyKinds #-}
 module Magic where
 
 import Hexagon
